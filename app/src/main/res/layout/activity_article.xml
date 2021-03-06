@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical"
+    tools:context=".ArticleActivity">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="UselessParent">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/foto"
+            android:contentDescription="@string/foto" />
+        <ImageButton
+            android:id="@+id/moveBeranda"
+            android:src="@drawable/logout"
+            style="@style/imageButton"
+            android:layout_marginLeft="20dp"
+            android:layout_marginStart="20dp"
+            android:contentDescription="@string/moveberanda" />
+        <ImageButton
+            android:id="@+id/moveProfile"
+            android:src="@drawable/profileuser"
+            style="@style/imageButton"
+            android:layout_gravity="end"
+            android:layout_marginRight="20dp"
+            android:layout_marginEnd="20dp"
+            android:contentDescription="@string/moveartikel" />
+        <TextView
+            android:id="@+id/artikel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/textArtikel"
+            android:textSize="30sp"
+            android:textColor="@android:color/white"
+            android:paddingBottom="20dp"
+            android:paddingLeft="20dp"
+            android:layout_gravity="bottom"
+            android:background="@drawable/gradient"
+            android:paddingStart="20dp"
+            tools:ignore="RtlSymmetry" />
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginVertical="20dp"
+        android:layout_marginHorizontal="10dp"
+        android:background="@color/colorAccent">
+
+        <TextView
+            android:id="@+id/textArtikel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|start"
+            android:gravity="center"
+            android:padding="10dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Pemrograman Mobile</string>
+    <string name="artikel">artikel</string>
+    <string name="textArtikel">Artikel</string>
+    <string name="reserved">All Right Reserved@Iyan</string>
+    <string name="profile">profile</string>
+    <string name="welcome">welcome</string>
+    <string name="biodata">Biodata Mahasiswa Pemrograman Mobile A</string>
+    <string name="nama">Andi Ilhamsyah Idris</string>
+    <string name="nim">H071191016</string>
+    <string name="ttl">Makassar, 06 April 2001</string>
+    <string name="email">andiilhamsyahidris@gmail.com</string>
+    <string name="eclipse">eclipse</string>
+    <string name="buttonArtikel">Artikel</string>
+    <string name="buttonBeranda">Beranda</string>
+    <string name="moveberanda">moveBeranda</string>
+    <string name="moveartikel">moveArtikel</string>
+    <string name="foto">foto</string>
+</resources>
